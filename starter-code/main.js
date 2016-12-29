@@ -4,5 +4,8 @@ var cardTwo = "queen";
 var cardThree = "king";
 var cardFour = "king";
 if ((cardOne == cardTwo) && (cardThree == cardFour)) {
-	console.log("Got 2 pair!");
+	console.log("Got working pairs!");
+};
+if (cardFour != cardOne){
+	alert('These do not match!');
 };
