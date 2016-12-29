@@ -1,1 +1,8 @@
-console.log("JS file is connected to HTML! Woo!")
+console.log("JS file is connected to HTML! Woo!");
+var cardOne = "queen";
+var cardTwo = "queen";
+var cardThree = "king";
+var cardFour = "king";
+if ((cardOne == cardTwo) && (cardThree == cardFour)) {
+	console.log("Got 2 pair!");
+};
