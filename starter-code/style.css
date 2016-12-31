@@ -23,6 +23,9 @@ h2{
     float: left;
     margin: 8%;
 }
+.card:hover{
+	cursor: pointer;
+}
 footer {
     background-color: #808080;
     text-align: center;
@@ -63,4 +66,8 @@ header{
 }
 p{
     text-align: center;
+}
+div img{
+	height: 100%;
+	width: 100%;
 }
