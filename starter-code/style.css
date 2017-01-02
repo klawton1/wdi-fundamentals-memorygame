@@ -25,6 +25,7 @@ h2{
 }
 .card:hover{
 	cursor: pointer;
+	border-color: red;
 }
 footer {
     background-color: #808080;
