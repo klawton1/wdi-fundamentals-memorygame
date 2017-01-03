@@ -44,11 +44,9 @@ function isTwoCards(){
 		this.innerHTML = "<img src='clubs-884198_640.png' alt='queen card'>";
 	}
 	if (cardsInPlay.length === 4){
-		console.log("2 cards");
 		isMatch(cardsInPlay);
 	}
 	if (cardsInPlay.length === 8){
-		console.log("4 cards");
 		isMatch(cardsInPlay);
 	}
 }
@@ -100,7 +98,6 @@ function isMatch(pair){
 			shuffle(cards);
 			shuffleBoard();
 			cardsInPlay = [];
-			console.log(cards)
 		}
 	}
 }
@@ -109,11 +106,9 @@ function shuffle(cardList){
 	length = cardList.length;
 	for (var i = 0; i < length; i++) {
 		index = (i+1) % 4;
-		console.log(index);
 		newCards[i] = cardList[index];
 	}
 	cards = newCards;
-	console.log(cards);
 }
 
 
